@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -17,7 +17,8 @@
       "peerDependencyRules": {
         "allowAny": [
           "react",
-          "react-dom"
+          "react-dom",
+          "next"
         ]
       }
     }
@@ -25,9 +26,13 @@
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.62.2",
+    "@sentry/nextjs": "^8",
     "@tailwindcss/typography": "^0.5.15",
+    "@uiw/react-markdown-editor": "^6.1.2",
+    "@uiw/react-md-editor": "^4.0.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "easymde": "2",
@@ -41,6 +46,7 @@
     "sanity": "^3.62.2",
     "sanity-plugin-markdown": "^5.0.0",
     "server-only": "^0.0.1",
+    "slugify": "^1.6.6",
     "styled-components": "^6.1.13",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
