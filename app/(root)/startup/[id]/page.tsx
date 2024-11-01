@@ -7,7 +7,6 @@ import {
 } from "@/sanity/lib/queries";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import React, { Suspense } from "react";
 import markdownit from "markdown-it";
 import { Skeleton } from "@/components/ui/skeleton";
